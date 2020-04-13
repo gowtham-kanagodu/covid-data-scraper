@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Scrapper {
@@ -28,25 +29,27 @@ public class Scrapper {
             WebElement countyTag = driver.findElement(By.linkText("Counties"));
             countyTag.findElement(By.xpath("./..")).click();
             Thread.sleep(5000);
+            
+            WebElement e1 = driver.findElement(By.xpath("//*[@id=\"root\"]/main/div[1]/div[3]/div[2]"));
 
-//          Step 1:
+            //Step 2: get all child elemnets of this `div`. this will only give 1st level children
+            List<WebElement> counties = e1.findElements(By.xpath("./div"));
 
-//            WebElement elements = driver.findElement(By.xpath("//*[@id=\"root\"]/main/div[1]/div[3]/div[2]/div[1]"));
-//            System.out.println("county: " + elements.getText());
-//            List<WebElement> e2 = elements.findElements(By.tagName("div"));
-//            System.out.println(e2.size());
-//            for (WebElement element : e2) {
-//                System.out.println("Paragraph text:" + element.getText());
-//                System.out.println("Paragraph text:" + element.getAttribute("title"));
-//            }
-            List<WebElement> elements = driver.findElements(By.xpath("//*[@id=\"root\"]/main/div[1]/div[3]/div[2]/div[1]"));
-            System.out.println("Text:" + elements.get(0).getText());
-            List<WebElement> e2 = elements.get(0).findElements(By.xpath("./div/div[2]"));
-            System.out.println("Size:" + e2.size());
-            for (WebElement element : e2) {
-                System.out.println("Paragraph text:" + element.getText());
-                System.out.println("Paragraph text:" + element.getAttribute("title"));
+            System.out.println("number of counties:" + counties.size());
+            List<String> output = new ArrayList<>();
+            //Step 3: loop through each `div`. each item contains county level details.
+            for (WebElement county : counties) {
+                String[] countyDesc = county.getText().split("\n");
+                String countyName = countyDesc[0];
+                String countyRank = countyDesc[1];
+
+                //Step 4: get the description for the county.
+                List<WebElement> countyProperties = county.findElements(By.xpath("./div/div[2]"));
+                String desc = countyProperties.get(0).getAttribute("title");
+                output.add(countyName + "," + countyRank + "," + desc);
+
             }
+            output.forEach(System.out::println);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
