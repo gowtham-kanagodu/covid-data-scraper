@@ -1,51 +1,51 @@
-Nevada,B+,Same as yesterday
-Vermont,B,Same as yesterday
-Maine,B-,Up from yesterday
-Colorado,B-,Up from yesterday
-California,B-,Up from yesterday
-Hawaii,B-,Up from yesterday
-New Mexico,C+,Same as yesterday
-Minnesota,C+,Same as yesterday
-Washington,C+,Up from yesterday
-New Hampshire,C+,Up from yesterday
-Michigan,C+,Same as yesterday
-New York,C+,Same as yesterday
-District of Columbia,C+,Same as yesterday
-Alaska,C,Same as yesterday
-Montana,C,Same as yesterday
-South Dakota,C,Up from yesterday
-North Dakota,C,Same as yesterday
-Idaho,C,Same as yesterday
-Arizona,C,Down from yesterday
-Wisconsin,C,Same as yesterday
-Pennsylvania,C,Up from yesterday
-Massachusetts,C,Up from yesterday
-New Jersey,C,Down from yesterday
-Oregon,C-,Same as yesterday
-Utah,C-,Up from yesterday
-Nebraska,C-,Up from yesterday
-Kansas,C-,Up from yesterday
-Iowa,C-,Up from yesterday
-West Virginia,C-,Same as yesterday
-Delaware,C-,Up from yesterday
-Connecticut,C-,Same as yesterday
-Florida,C-,Same as yesterday
-Maryland,C-,Up from yesterday
-Rhode Island,C-,Same as yesterday
-Wyoming,D+,Same as yesterday
-Mississippi,D+,Up from yesterday
-Missouri,D+,Same as yesterday
-Illinois,D+,Down from yesterday
-Texas,D+,Up from yesterday
-Oklahoma,D,Same as yesterday
-Kentucky,D,Up from yesterday
-Louisiana,D,Same as yesterday
-Indiana,D,Up from yesterday
-Virginia,D,Down from yesterday
-Tennessee,D,Up from yesterday
-Alabama,D,Same as yesterday
-South Carolina,D,Same as yesterday
-Georgia,D,Same as yesterday
-Arkansas,D-,Down from yesterday
-North Carolina,D-,Same as yesterday
-Ohio,D-,Up from yesterday
+North Carolina,Davie County,F,[Ljava.lang.String;@19bedeb8
+Indiana,Elkhart County,F,[Ljava.lang.String;@52d6d273
+Wyoming,Laramie County,D,[Ljava.lang.String;@642505c7
+Utah,Piute County,-,[Ljava.lang.String;@f973499
+Arizona,Navajo County,D+,[Ljava.lang.String;@3ef41c66
+Montana,Meagher County,-,[Ljava.lang.String;@7876d598
+Kentucky,Robertson County,-,[Ljava.lang.String;@354e7004
+California,Alpine County,-,[Ljava.lang.String;@481ba2cf
+Kansas,Leavenworth County,D-,[Ljava.lang.String;@108531c2
+Delaware,Kent County,D,[Ljava.lang.String;@3900fa71
+Florida,Santa Rosa County,F,[Ljava.lang.String;@2eaef76d
+Pennsylvania,Westmoreland County,D-,[Ljava.lang.String;@76304b46
+Iowa,Des Moines County,F,[Ljava.lang.String;@22bb5646
+Mississippi,Issaquena County,-,[Ljava.lang.String;@5e048149
+Illinois,Jefferson County,F,[Ljava.lang.String;@7899de11
+Texas,Kenedy County,-,[Ljava.lang.String;@1687eb01
+Connecticut,Middlesex County,C-,[Ljava.lang.String;@1431267b
+Georgia,Taliaferro County,-,[Ljava.lang.String;@7ab1127c
+Maryland,Washington County,D-,[Ljava.lang.String;@5e746d37
+Virginia,Highland County,-,[Ljava.lang.String;@6749fe50
+Idaho,Camas County,-,[Ljava.lang.String;@4593ff34
+Vermont,Orleans County,C,[Ljava.lang.String;@383dc82c
+Oregon,Wheeler County,-,[Ljava.lang.String;@710d7aff
+Maine,Hancock County,C-,[Ljava.lang.String;@37911f88
+Oklahoma,Muskogee County,F,[Ljava.lang.String;@b9a77c8
+Tennessee,Greene County,F,[Ljava.lang.String;@6a9cd0f8
+Alabama,Dale County,F,[Ljava.lang.String;@72b43104
+Arkansas,Crittenden County,F,[Ljava.lang.String;@5426cb36
+Washington,Garfield County,-,[Ljava.lang.String;@61e94def
+South Carolina,Darlington County,F,[Ljava.lang.String;@4cb702ce
+Nebraska,McPherson County,-,[Ljava.lang.String;@4d0b0fd4
+West Virginia,Brooke County,F,[Ljava.lang.String;@3cd59ef5
+Colorado,Hinsdale County,-,[Ljava.lang.String;@5117dd67
+Massachusetts,Bristol County,D+,[Ljava.lang.String;@502f8b57
+Missouri,Newton County,F,[Ljava.lang.String;@6b4283c4
+Alaska,Dillingham Census Area,-,[Ljava.lang.String;@2c1b9e4b
+North Dakota,Grant County,-,[Ljava.lang.String;@4a9419d7
+Wisconsin,Walworth County,D-,[Ljava.lang.String;@22fa55b2
+Nevada,Esmeralda County,-,[Ljava.lang.String;@624ea235
+New York,Schenectady County,D,[Ljava.lang.String;@14f5da2c
+District of Columbia,District of Columbia,C+,[Ljava.lang.String;@1bc715b8
+Rhode Island,Bristol County,D,[Ljava.lang.String;@3c46dcbe
+Hawaii,Kalawao County,-,[Ljava.lang.String;@13ad5cd3
+South Dakota,Sully County,-,[Ljava.lang.String;@67ef029
+Minnesota,Sherburne County,D-,[Ljava.lang.String;@7d64e326
+New Jersey,Warren County,D,[Ljava.lang.String;@3d7cc3cb
+Michigan,Keweenaw County,-,[Ljava.lang.String;@7756c3cd
+New Mexico,Harding County,-,[Ljava.lang.String;@3a5ecce3
+New Hampshire,Strafford County,D+,[Ljava.lang.String;@68044f4
+Louisiana,St. Bernard Parish,D-,[Ljava.lang.String;@1b7332a7
+Ohio,Erie County,F,[Ljava.lang.String;@4a9860
